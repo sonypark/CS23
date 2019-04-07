@@ -18,8 +18,8 @@ NOR | 0 | 1
 def nor(paramA:bool, paramB:bool)->bool:
     return not (paramA or paramB)
 
-print(nand(True, True)) # => False
-print(nand(True, False)) # => False
-print(nand(False, True)) # => False
-print(nand(False, False)) # => True
+print(nor(True, True)) # => False
+print(nor(True, False)) # => False
+print(nor(False, True)) # => False
+print(nor(False, False)) # => True
 ```

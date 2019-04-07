@@ -17,8 +17,8 @@ XOR | 0 | 1
 def xor(paramA:bool, paramB:bool)->bool:
     return paramA != paramB
 
-print(nand(True, True)) # => False
-print(nand(True, False)) # => True
-print(nand(False, True)) # => True
-print(nand(False, False)) # => False
+print(xor(True, True)) # => False
+print(xor(True, False)) # => True
+print(xor(False, True)) # => True
+print(xor(False, False)) # => False
 ```
